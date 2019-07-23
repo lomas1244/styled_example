@@ -1,7 +1,7 @@
 import React from "react"
 import styled from 'styled-components'
 
-/* Declare constants for the named elements */
+/* Declare constants for the named elements and declare HTML element type after 'styled.' */
 const CardContainer = styled.div`
 padding: 30px;
 border-radius: 10px;
@@ -17,6 +17,7 @@ color: #e7e7e7;
 margin-bottom: 0;
 margin-top: 10px;
 `
+
 const CardDesc = styled.p`
 font-size: 18px;
 margin-top: 10px;
